@@ -1,2 +1,62 @@
 /.bsp/
 target/
+
+# Scala-specific ignores
+*.class
+*.log
+*.cache
+*.diff
+*.patch
+*.out
+*.lock
+project/target/
+target/
+lib_managed/
+tmp/
+.dist/
+
+# SBT
+.cache/
+lib_managed/
+src_managed/
+target/
+dist/
+logs/
+
+# Eclipse & IntelliJ project files
+*.idea/
+*.idea_modules/
+*.ipr
+*.iws
+*.iml
+.DS_Store
+*.swp
+*~
+
+# Akka-specific ignores
+akka-remote.1
+akka-remote.2
+
+# Play Framework
+logs/*
+!logs/.gitkeep
+project/project/
+project/target/
+target/
+
+# Application specific ignores
+*.conf
+.secret
+*.pid
+*.seed
+*.bak
+*.tmp
+out/
+.cache/
+cache/
+
+# JetBrains specific ignores
+.idea/
+*.iws
+*.iml
+*.ipr
