@@ -1,6 +1,6 @@
 package com.elan.weather.models
 
-import play.api.libs.json.{Json, OFormat}
+import play.api.libs.json._
 
 // JSON Formats
 object JsonFormats {

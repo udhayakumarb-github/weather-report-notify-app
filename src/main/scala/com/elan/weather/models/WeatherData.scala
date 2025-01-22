@@ -34,6 +34,5 @@ case class WeatherData(
                         timezone: Int,
                         id: Int,
                         name: String,
-                        cod: Int,
-                        receivedAt: Timestamp
+                        cod: Int
                       )
